@@ -1,0 +1,17 @@
+
+.col-30 {
+    border-style: solid;
+    float: left;
+    width: 30%;
+    margin: 5px;
+    height: 310px;
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+
+}
+.move-row{
+    align-items: center;
+    margin-left: 5px;
+}

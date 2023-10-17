@@ -1,0 +1,88 @@
+.content {
+    display: flex;
+}
+
+.table-side {
+    width: 70%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 90%;
+    margin: 25px;
+}
+
+thead tr th {
+    padding:20px
+}
+
+th,
+td {
+    width: 10%;
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #ddd;
+    margin: 5px;
+}
+
+th {
+    background-color: silver;
+    color: black;
+}
+
+td input[type=text] {
+    width: 60%;
+}
+
+input {
+    text-align: center;
+}
+
+.alter-side {
+    text-align: center;
+    /*width: 20%;*/
+}
+
+.coordinate-contents {
+    height: 60px;
+}
+
+#xml-input {
+    margin-bottom: 20px;
+    color: #444;
+    padding: 5px;
+    background: #fff;
+    border-radius: 10px;
+    border: 1px solid #555;
+}
+
+#xml-input::file-selector-button {
+    margin-right: 20px;
+    border: none;
+    background: royalblue;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    transition: background .2s ease-in-out;
+}
+
+#xml-input::file-selector-button:hover {
+    background: #1e3d98;
+}
+
+#edit-button {
+    height: 30px;
+    width: 90px;
+}
+
+#map-save-div {
+    padding-top: 40px;
+    height: 100px;
+}
+
+#upload-map-div {
+    padding: 100px 0;
+    width: 300px;
+    border: 3px dashed black;
+}

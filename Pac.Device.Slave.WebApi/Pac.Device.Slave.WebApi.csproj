@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Formulatrix.Rpc">
+      <HintPath>..\lib\frpc\Formulatrix.Rpc.dll</HintPath>
+    </Reference>
+    <Reference Include="Formulatrix.Rpc.Transport.SocketCan">
+      <HintPath>..\packages\formulatrix.rpc.transport.socketcan\0.5.2\lib\net6.0\Formulatrix.Rpc.Transport.SocketCan.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Pac.Common\Pac.Common.csproj" />
+    <ProjectReference Include="..\Pac.Device.Interface\Pac.Device.Interface.csproj" />
+    <ProjectReference Include="..\Pac.Device\Pac.Device.csproj" />
+    <ProjectReference Include="..\Pac.Logging\Pac.Logging.csproj" />
+  </ItemGroup>
+
+
+
+</Project>

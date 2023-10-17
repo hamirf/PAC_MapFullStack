@@ -1,0 +1,64 @@
+svg {
+  pointer-events: all;
+}
+
+.motion-control-pad {
+  display: grid;
+  grid-template-areas:
+    "empty0 empty0 label-y empty1 label-z"
+    "empty0 empty0 button-yp empty1 button-zp"
+    "label-x button-xn button-center button-xp empty2"
+    "empty3 empty3 button-yn empty4 button-zn";
+  grid-template-columns: 20px 32px 32px 32px 32px;
+  grid-template-rows: 25px 32px 32px 32px;
+  column-gap: 5px;
+  row-gap: 5px;
+}
+
+.motion-control-pad-button {
+  background: #219653;
+  border-radius: 6px;
+  padding: 0;
+  margin: 0;
+  width: 32px;
+  height: 32px;
+}
+
+.motion-control-pad-button:hover:active {
+  background: #158947;
+}
+
+.motion-control-pad-button:hover {
+  background: #1dbe62;
+}
+
+.motion-control-pad-button:disabled {
+  background: #c0c0c0;
+}
+
+.motion-control-pad-center {
+  background: #72aaed;
+  border-radius: 5px;
+  padding: 0;
+  width: 28px;
+  height: 28px;
+  margin: 2px 2px 2px 2px;
+  color: white;
+}
+
+.motion-control-pad-center:hover:active {
+  background: #217fed;
+}
+
+.motion-control-pad-center:hover {
+  background: #5399ec;
+}
+
+.motion-control-pad-center:disabled {
+  background: #c0c0c0;
+}
+
+.motion-control-pad span {
+  margin: auto;
+  color: #27ae60;
+}

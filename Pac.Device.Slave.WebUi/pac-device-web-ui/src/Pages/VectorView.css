@@ -1,0 +1,32 @@
+table {
+    border-collapse: collapse;
+    width: 50%;
+    margin: 25px;
+}
+
+thead tr th{
+    padding:20px
+}
+
+th,
+td {
+    width: 25%;
+    text-align: left;
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #ddd;
+    margin: 5px;
+}
+
+td input[type=text],
+select,
+textarea {
+    width: fit-content;
+}
+
+tr:hover {background-color: #f2f2f2;}
+
+th {
+    background-color: silver;
+    color: black;
+}
